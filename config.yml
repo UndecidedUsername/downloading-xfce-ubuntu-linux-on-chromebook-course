@@ -1,0 +1,16 @@
+title: downloading xfce ubuntu linux on chromebook
+description: A step by step course on getting linux onto your chomebook
+template:
+  repo: downloading-xfce-ubuntu-linux-on-chromebook-template
+  name: downloading-xfce-ubuntu-linux-on-chromebook
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
